@@ -12,12 +12,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #687eff;
 }
 
 .weatherapp{
     width:350px;
     border-radius: 10px;
     border:1px solid black;
+    background-color: white;
     margin:auto;
 }
 .weatherapp> .input{
@@ -69,7 +71,7 @@ body{
 .stats{
     display: flex;
     justify-content: space-around;
-    margin:10px 100px;
+    margin:10px 70px;
 }
 
 .humidityspeed{
@@ -78,6 +80,17 @@ body{
     margin:10px 40px;
 }
 
+.humidityspeed > div >img{
+    width:50px;
+}
+
+.humidityspeed > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0px;
+}
 
 
 
