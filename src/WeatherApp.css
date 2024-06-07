@@ -18,9 +18,11 @@ body{
 .weatherapp{
     width:350px;
     border-radius: 10px;
-    border:1px solid black;
+    /* border:1px solid black; */
+    padding:10px;
     background-color: white;
     margin:auto;
+    box-shadow:5px 3px hsl(231, 100%, 50%)
 }
 .weatherapp> .input{
     width:90%;
@@ -74,6 +76,12 @@ body{
     margin:10px 70px;
 }
 
+.stats > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .humidityspeed{
     display: flex;
     justify-content: space-between;
@@ -90,6 +98,10 @@ body{
     justify-content: center;
     align-items: center;
     margin:10px 0px;
+}
+
+.errorloadingmessages{
+    text-align: center;
 }
 
 
