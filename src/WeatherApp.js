@@ -55,6 +55,7 @@ const WeatherApp = () => {
         try {
             setLoading(true);
             setCityNotFound(false)
+            setError(false)
             const response = await fetch(url);
             const data = await response.json();
             setLoading(false);
