@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currencyconverter{
+    width:400px;
+    /* height:70%; */
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.converterimage{
+    width: 70%;
+    /* height:40% */
+    margin: 0px auto;
+    display: block;
+}
+
+.intro> h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-groups> label{
+    display: block;
+    margin-bottom: 5px;
+    color:gray
+}
+.input-groups>input , select{
+    width:100%;
+    font-size: 18px;
+    padding:5px;
+    outline:none;
+    margin-bottom: 10px;
+    border:1px solid gray;
+}
+
+.input-groups> input:hover , select:hover{
+    border: 1px solid lightblue;
+}
+
+.valuecontainer{
+    width:100%;
+    height:50px;
+    border:1px solid lightblue;
+    margin:5px;
+    text-align: center;
+}
+
+.valuecontainer>h3{
+    color:hsl(195, 53%, 49%);
+    margin:10px 0px;
+    display: block;
+}
