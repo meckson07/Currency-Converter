@@ -15,8 +15,9 @@ body{
 .currencyconverter{
     width:400px;
     /* height:70%; */
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px solid black;
+    border-radius: 15px;
 }
 
 .converterimage{
@@ -28,7 +29,10 @@ body{
 
 .intro> h2{
     text-align: center;
-    margin-bottom: 20px;
+    border :2px dashed hsl(195, 53%, 49%);
+    padding:5px;
+    /* margin-bottom: 20px; */
+    color:hsl(195, 53%, 49%)
 }
 
 .input-groups> label{

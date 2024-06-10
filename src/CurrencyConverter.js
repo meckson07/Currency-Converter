@@ -1,6 +1,6 @@
 import React from 'react'
 import './CurrencyConverter.css'
-
+import Image from './images/moneyexchange.PNG'
 
 const CurrencyConverter=()=>{
     const [currencyInput,setCurrencyInput]=React.useState({
@@ -48,8 +48,8 @@ const CurrencyConverter=()=>{
     return(
         <div className='currencyconverter'>
             <div className='intro'>
+            <h2>Currency Converter</h2>
                 <img src={Image} className='converterimage'></img>
-                {/* <h2>Currency Converter</h2> */}
             </div>
             <div className='inputs'>
                 <div className='input-groups'>
